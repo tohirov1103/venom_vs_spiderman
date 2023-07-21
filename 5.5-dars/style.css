@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: none;
+}
+h1{
+    text-align: center;
+}
+#select{
+    text-align: left;
+    
+}
+.spiderMan{
+    position: absolute;
+    /* cursor: pointer; */
+}
+.Venom{
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width 0.5s, height 0.5s all 0.5s;
+    width: 100px;
+    height: 100px;
+
+}
+#select{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid red;
+    background: pink;
+}
